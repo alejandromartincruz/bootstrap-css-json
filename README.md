@@ -4,4 +4,4 @@ bootstrap-css-json
 CRUB de Stings en Marvel Development
 
 
- Abrir index.html con un navegador
+ Abrir github.html con un navegador
