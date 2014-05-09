@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Marvel powah!</title>
+
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+
+    </head>
+    <body>
+      <div class="container theme-showcase" role="main">
+        <div class="jumbotron">
+          <center><img width=850 height=300 src="http://img4.wikia.nocookie.net/__cb20131005183103/marvel/es/images/3/30/Universo_Marvel.png"></img>
+          <h1>Marvel powah!</h1></center>
+        </div>
+
+
+        <div class="page-header">
+          <h1>Marvel World</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Listado de personajes</h3>
+              </div>
+              <div class="panel-body">
+                 <span id="repos_result"></span>
+              </div>
+            </div>
+          </div><!-- /.col-sm-8 -->
+          <div class="col-sm-4">
+            <button type="button" class="btn btn-info" id="button_get_repos">Obtener personajes</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Busca información de un personaje de Marvel</h3>
+              </div>
+              <div class="panel-body">
+                 <span id="get_repo_result"></span>
+              </div>
+            </div>
+          </div><!-- /.col-sm-8 -->
+          <div class="col-sm-4">
+            <button type="button" class="btn btn-info" id="button_get_repo">Go!</button>
+            <div class="input-group input-group-sm">
+              <span class="input-group-addon">Nombre del personaje</span> 
+              <input type="text" class="form-control" id="repository_name">
+            </div>
+          </div>
+        </div>
+
+<!--        <div class="row">
+          <div class="col-sm-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Edit Repository</h3>
+              </div>
+              <div class="panel-body">
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon">Name</span> <input type="textbox" class="form-control" id="repository_name_to_edit">
+                </div>
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon">Description</span> <input type="textbox" class="form-control" id="description_to_edit">
+                </div>
+
+                <span id="update_result"></span>
+
+              </div>
+            </div>
+          </div><!-- /.col-sm-8 -->
+<!--          <div class="col-sm-4">
+            <button type="button" class="btn btn-info" id="button_get_repo_to_edit">Edit Repository</button>
+            <div class="input-group input-group-sm">
+              <span class="input-group-addon">Name</span> 
+              <input type="text" class="form-control" id="repository_name_get_to_edit">
+            </div>
+            <button type="button" class="btn btn-info" id="button_edit_repo">Save Repository</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Create a new Repository</h3>
+              </div>
+              <div class="panel-body">
+
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon">Name</span> <input type="text"
+                    class="form-control" id="repository_name_to_create">
+                </div>
+
+                <div class="input-group input-group-sm">
+                  <span class="input-group-addon">Description</span> <input
+                    type="text" class="form-control" id="description_to_create">
+                </div>
+
+                <span id="create_result"></span>
+
+              </div>
+            </div>
+          </div><!-- /.col-sm-8 -->
+<!--          <div class="col-sm-4">
+             <button type="button" class="btn btn-info" id="button_to_create">Create Repository</button>
+          </div>
+        </div>
+
+
+  </div>
+-->
+        
+
+
+
+
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+      <!-- Event and AJAX functions -->
+      <script type="text/javascript" src="github.js"></script>
+    </body>
+  </html>
